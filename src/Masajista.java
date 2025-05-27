@@ -37,4 +37,18 @@ public class Masajista extends Persona {
     public void setAniosExperiencia(int aniosExperiencia) {
         this.aniosExperiencia = aniosExperiencia;
     }
+
+    public void darMasaje() {
+        System.out.println("Está dando un masaje.");
+    }
+
+    @Override
+    public void concentrarse() {
+        System.out.println("El masajista esta dando un masaje");
+    }
+
+    @Override
+    public void viajar() {
+        System.out.println("El masajista esta viajando");
+    }
 }

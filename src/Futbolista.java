@@ -37,4 +37,22 @@ public class Futbolista extends Persona {
     public void setDemostracion(String demostracion) {
         this.demostracion = demostracion;
     }
+
+    public void jugarPartido() {
+        System.out.println("Esta jugando un partido");
+    }
+
+    public void entrenar() {
+        System.out.println("Está entrenando.");
+    }
+
+    @Override
+    public void concentrarse() {
+        System.out.println("El futbolista esta concentrado");
+    }
+
+    @Override
+    public void viajar() {
+        System.out.println("El fultbolista esta viajando");
+    }
 }
